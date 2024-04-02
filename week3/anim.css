@@ -1,0 +1,43 @@
+.animations{
+    cursor: pointer;
+    background-color: blue;
+    border: 100px;
+    border-color: rgb(211, 7, 7);
+    border-radius: 50px
+    
+
+    
+}
+.animations:hover{
+    cursor: pointer;
+    background-color: aqua;
+    padding-left: 60px;
+    padding-inline-start: 30px;
+    text-transform: lowercase;
+    
+}
+.animations
+{
+    animation-name: randomAnimation;
+    animation-duration: 5s;
+    animation-play-state: inherit;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes randomAnimations {
+    0%{
+        background-color:red;
+
+    }
+    10%{
+        transform :scaleX(10deg)
+    }
+    30%{
+        transform :rotate(45deg)
+    }
+    
+}
+
+    
+}

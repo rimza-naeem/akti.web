@@ -1,0 +1,15 @@
+.redcolor{
+    background-color: red;
+}
+.blueColor{
+    background-color: blue;
+}
+.username{
+    font-weight: bold;
+}
+.email{
+    font-weight: bolder;
+    color: aqua;
+    background-color: black;
+    font-size: large;
+}

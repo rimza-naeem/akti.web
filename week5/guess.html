@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 h-screen flex flex-col justify-center items-center">
+    <div>
+        <a href="../index.html">Home</a>
+    </div>
+    <h1 class="text-3xl font-bold mb-4">Number Guessing Game</h1>
+    <div class="flex flex-col items-center bg-white p-8 rounded-lg shadow-md">
+        <p class="mb-2">Guess a number between 1 and 100:</p>
+        <input type="number" id="guess" class="border border-gray-300 px-2 py-1 rounded-md mb-2">
+        <button onclick="checkGuess()" class="bg-blue-500 text-white px-4 py-2 rounded-md mr-2 hover:bg-blue-600">Guess</button>
+        <button onclick="startGame()" class="bg-gray-500 text-white px-4 py-2 rounded-md hover:bg-gray-600">Restart</button>
+        <p id="message" class="text-red-500 font-bold mt-4"></p>
+        <p id="attempts" class="text-sm mt-2"></p>
+        <p id="result" class="text-green-500 font-bold mt-4"></p>
+    </div>
+    
+    
+
+    <!-- Include game.js -->
+    <script src="guess.js"></script>
+</body>
+</html>
